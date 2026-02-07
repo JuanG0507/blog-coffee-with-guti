@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Café</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">contacto</a>
+                </nav>
+            </div>
+        </div>
+    
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y concejos</p>
+        </div>
+    </header>
+    <main class="contenedor">
+        <h3 class="centrar-texto">Nuestros Proximos Cursos y Talleres</h3>
+       
+        <div class="curso">
+            <div class="curso__imagen">
+                <img src="img/curso1.jpg" alt="imagen del curso">
+            </div>
+
+            <div class="curso__informacon">
+                <h4 class="no-margin">Técnicas de Extración de Café</h4>
+                <p class="curso__label">Precio:
+                    <span class="curso__info">Gratis</span>
+                </p>
+                <p class="curso__label">Cupo:
+                    <span class="curso__info">15</span>
+                </p>
+                <p class="curso__descripcion">
+                    Duis ac facilisis augue, nec pellentesque massa. Phasellus posuere nunc quis suscipit fermentum. Duis varius velit ornare odio commodo, a suscipit mauris tincidunt. Morbi sit amet ipsum nec elit suscipit commodo.
+                </p>
+                <p>Donec auctor, dolor vel bibendum dignissim, libero sem mattis odio, a interdum libero sapien in ante. Vestibulum eget arcu nulla. Morbi tincidunt urna mattis rhoncus mattis. Phasellus a hendrerit dolor, nec varius nisi.</p>
+                
+            </div><!--.curso__informacion-->
+        </div><!--.curso-->
+    </main>
+         <h3 class="centrar-texto">Inscribete</h3>
+       
+        
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input 
+                class="campo__field"
+                type="text" 
+                placeholder="Tu Nombre" 
+                id="nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="nombre">Apellido</label>
+                <input 
+                class="campo__field"
+                type="text" 
+                placeholder="Tu Nombre" 
+                id="nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input
+                class="campo__field" 
+                type="email" 
+                placeholder="Tu E-mail" 
+                id="email">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea 
+                class="campo__field campo__field--textarea"
+                id="mensaje">
+                </textarea>
+            </div>
+
+            <div class="campo">
+                <input 
+                type="submit" 
+                value="Enviar" 
+                class="boton boton--primario">
+            </div>
+        </form>
+    </main>       
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
