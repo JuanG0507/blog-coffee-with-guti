@@ -1,15 +1,5 @@
 
-
-    // validar formulario
-
-const formulario = document.querySelector8(".formulario");
-formulario.addEventListener("submit", function(evento){
-    evento.preventDefault();
-
-    console.log("Enviando Formulario");
-});
-
-    // evento de textarea
+  // evento de textarea
 
 const datos = {
     nombre: "", 
@@ -20,10 +10,27 @@ const datos = {
 const nombre = document.querySelector("#nombre");
 const email = document.querySelector("#email");
 const mensaje = document.querySelector("#mensaje");
+const formulario = document.querySelector(".formulario");
 
 nombre.addEventListener("input", leerTexto);
 email.addEventListener("input", leerTexto);
 mensaje.addEventListener("input", leerTexto);
+
+    // validar submit
+
+formulario.addEventListener("submit", function(evento){
+    evento.preventDefault();
+
+
+    const { nombre, email, mensaje } =  datos;
+
+    console.log(nombre);
+    console.log(email);
+    console.log(mensaje);
+
+    console.log("Enviando Formulario");
+});
+
 
 function leerTexto(e) {
     //console.log(e.target.value)//
