@@ -1,20 +1,18 @@
-const btnEnviar = document.querySelector('.boton--primario');
- 
-btnEnviar.addEventListener('Click', function(evento){
-    console.log(evento);
-    evento.preventDefault();
- 
-    //validar un formulario
- 
- 
-    console.log('enviando formulario');
-});
 
+
+    // validar formulario
+
+const formulario = document.querySelector8(".formulario");
+formulario.addEventListener("submit", function(evento){
+    evento.preventDefault();
+
+    console.log("Enviando Formulario");
+});
 
     // evento de textarea
 
 const datos = {
-    nombre: "",
+    nombre: "", 
     email: "",
     mensaje: ""
 }
